@@ -1,0 +1,88 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #4A90E2;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #4A90E2;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #2E86C1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9em;
+}
